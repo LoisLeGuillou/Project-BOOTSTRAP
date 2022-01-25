@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formation Company</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+	<header>
+	 <nav class="navbar navbar-inverse">
+	    <div class="container-fluid">
+	      <div class="navbar-header">
+		<a class="navbar-brand" href="index.html">CFL</a>
+	      </div>
+		<ul class="nav navbar-nav">
+		  <li><a href="about-us.html">About Us</a></li>
+		  <li><a href="mission.html">Mission</a></li>
+		  <li><a href="services.html">Services</a></li>
+		  <li><a href="choose-us.html">Why choose us</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	    </div>
+	  </nav>
+	</header>
+
+	<main>
+	  <h1 class="text-center">Send your message</h1>
+	  <div class="container">
+	    <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post" class="formulaire">
+	      <div class="form-group">
+	        <label for="lastname">Lastname:</label>
+	        <input type="text" class="form-control" id="lastname" name="lastname">
+	      </div>
+	      <div class="form-group">
+	        <label for="firstname">Firstname:</label>
+	        <input type="text" class="form-control" id="firstname" name="firstname">
+	      </div>
+	      <div class="form-group">
+	        <label for="mail">E-mail:</label>
+	        <input type="email" class="form-control" id="mail" name="email" placeholder="yourmail@yahoo.com">
+	      </div>
+	      <div class="form-group">
+	        <label for="request">Message:</label>
+	        <textarea id="request" class="form-control" name="request" cols="66" rows="10"></textarea>
+	      </div>
+	      <div class="form-group">
+	        <label for="country">Country:</label>
+	        <select class="form-control" name="country" id="country">
+		  <option value="France">France</option>
+		  <option value="Germany">Germany</option>
+		  <option value="Spain">Spain</option>
+	        </select>
+	      </div>
+	      <button type="submit" class="btn btn-default">Send your message</button>
+    	    </form>
+	  </div>
+	</main>
+
+	<footer class="text-center">
+	  <div>Copyright 2022</div>
+	</footer>
+
+</body>
+
+</html>
